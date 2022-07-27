@@ -4,7 +4,6 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>IT Solitions</title>
-    <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="fav.jpg" type="image/x-icon">
     <!-- CDN link bellow -->
     <!-- CDN link bellow -->
@@ -12,38 +11,94 @@
   </head>
   <body>
     <header class="container">
+        <!-- nav start -->
+        <!-- nav start -->
         <nav class="navbar navbar-expand-lg bg-light fw-semibold">
             <div class="container-fluid">
-              <a class="navbar-brand fw-bold" href="#">IT Solutions</a>
+              <a class="navbar-brand fw-bold me-5" href="#">IT Solutions</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <div class="collapse navbar-collapse ms-5" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active ms-5" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Courses</a>
+                    <a class="nav-link active ms-2" aria-current="page" href="#">Courses</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Deals</a>
+                    <a class="nav-link active ms-2" aria-current="page" href="#">Deals</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Success</a>
+                    <a class="nav-link activems-2" aria-current="page" href="#">Success</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                    <a class="nav-link activems-2" aria-current="page" href="#">About</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Register</a>
+                    <a class="nav-link activems-2" aria-current="page" href="#">Register</a>
                   </li>
                 </ul>
-                  <button class="btn btn-outline-primary" type="submit">Register</button>
+                  <button class="btn btn-outline-primary px-4 fw-semibold" type="submit">Register</button>
               </div>
             </div>
           </nav>
+          <!-- nav end -->
+          <!-- nav end -->
+          <!-- slider start -->
+          <div id="carouselExampleCaptions" class="carousel slide mt-5" data-bs-ride="false">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="2000">
+                <img src="./images/cover/cover-1.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h1 class="pb-4 text-dark fw-bold fs-1">Get Started Digital Learning</h1>
+                  <p class="pb-4 text-dark fw-semibold">Whatever industry you are involved in and whatever role you play , you know that technology will be a critical part of your success.</p>
+                  <button type="button" class="btn btn-primary px-4 mb-3">Get Started</button>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="pb-4 text-dark fw-bold fs-1">Get Started Digital Learning</h1>
+                    <p class="pb-4 text-dark fw-semibold">Whatever industry you are involved in and whatever role you play , you know that technology will be a critical part of your success.</p>
+                    <button type="button" class="btn btn-primary px-4 mb-3">Get Started</button>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="pb-4 text-dark fw-bold fs-1">Get Started Digital Learning</h1>
+                    <p class="pb-4 text-dark fw-semibold">Whatever industry you are involved in and whatever role you play , you know that technology will be a critical part of your success.</p>
+                    <button type="button" class="btn btn-primary px-4 mb-3">Get Started</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- slider end -->
     </header>
+    <!-- header end -->
+    <!-- card section start -->
+    <section class="container mt-5">
+        <div class="mb-5">
+            <h1 class="d-flex justify-content-center mb-4">Discover Our Populer Courses</h1>
+            <p  class="d-flex justify-content-center">Most small to medium sized businesses would benefit from a reliable IT support company</p>
+        </div>
+    </section>
+    <!-- card section end -->
     <!-------------------------------script tag bellow------------------------------------->
     <!-------------------------------script tag bellow------------------------------------->
     <!-------------------------------script tag bellow------------------------------------->
